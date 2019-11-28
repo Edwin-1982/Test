@@ -20,6 +20,7 @@ int main(void) {
 		i++;        //i=i+1 改变循环控制变量
 	}
 	cout << "s=" << s << endl;
+
 	system("pause");
 	return 0;
 }

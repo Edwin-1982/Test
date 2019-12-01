@@ -23,6 +23,7 @@
     <ProjectGuid>{C193C4A7-DDCA-4380-B006-464DFFF219D7}</ProjectGuid>
     <RootNamespace>RockTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>客户端</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

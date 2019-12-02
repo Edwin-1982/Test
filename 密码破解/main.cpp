@@ -39,8 +39,8 @@ int main(void) {
 							tmp[1] = dict[p2];
 							tmp[2] = dict[p3];
 							tmp[3] = dict[p4];
-							tmp[4] = dict[p3];
-							tmp[5] = dict[p4];
+							tmp[4] = dict[p5];
+							tmp[5] = dict[p6];
 							tmp[6] = '\0';
 							
 							cout << tmp << endl;

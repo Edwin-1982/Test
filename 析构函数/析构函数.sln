@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "析构函数", "析构函�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "纯虚函数", "..\纯虚函数\纯虚函数.vcxproj", "{5626E1D9-8777-4D78-800B-865DC4DF8E0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector", "..\vector\vector.vcxproj", "{F4FD429E-69BB-4FCB-AFB1-DE6DD249BC05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{5626E1D9-8777-4D78-800B-865DC4DF8E0D}.Release|x64.Build.0 = Release|x64
 		{5626E1D9-8777-4D78-800B-865DC4DF8E0D}.Release|x86.ActiveCfg = Release|Win32
 		{5626E1D9-8777-4D78-800B-865DC4DF8E0D}.Release|x86.Build.0 = Release|Win32
+		{F4FD429E-69BB-4FCB-AFB1-DE6DD249BC05}.Debug|x64.ActiveCfg = Debug|x64
+		{F4FD429E-69BB-4FCB-AFB1-DE6DD249BC05}.Debug|x64.Build.0 = Debug|x64
+		{F4FD429E-69BB-4FCB-AFB1-DE6DD249BC05}.Debug|x86.ActiveCfg = Debug|Win32
+		{F4FD429E-69BB-4FCB-AFB1-DE6DD249BC05}.Debug|x86.Build.0 = Debug|Win32
+		{F4FD429E-69BB-4FCB-AFB1-DE6DD249BC05}.Release|x64.ActiveCfg = Release|x64
+		{F4FD429E-69BB-4FCB-AFB1-DE6DD249BC05}.Release|x64.Build.0 = Release|x64
+		{F4FD429E-69BB-4FCB-AFB1-DE6DD249BC05}.Release|x86.ActiveCfg = Release|Win32
+		{F4FD429E-69BB-4FCB-AFB1-DE6DD249BC05}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

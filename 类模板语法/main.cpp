@@ -7,12 +7,12 @@ template<typename T>
 class A {
 public:
 	//函数的参数列表
-	A(T t=0) {
+	A(T t = 0) {
 		this->t = t;
 	}
 
 	//成员函数返回值使用虚拟类型
-	T &getT() {
+	T& getT() {
 		return t;
 	}
 private:
@@ -20,7 +20,7 @@ private:
 	T t;
 };
 
-void printA(A<int> &a) {
+void printA(A<int>& a) {
 	cout << a.getT() << endl;
 
 }

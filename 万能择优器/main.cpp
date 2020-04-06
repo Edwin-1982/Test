@@ -4,8 +4,8 @@ using namespace std;
 
 class demo {
 public:
-	demo(int _k = 0) { 
-		k = _k; 
+	demo(int _k = 0) {
+		k = _k;
 	}
 	~demo() {
 
@@ -30,7 +30,7 @@ template<类型形式参数表>
 类型形式参数的形式:
 typename T1, typename T2, ...typename Tn
 *********************************************/
-template<typename T,typename T2>
+template<typename T, typename T2>
 T Max(T a, T2 b) { //函数定义
 	//T tmp = 0;
 	return a > b ? a : b;
@@ -45,11 +45,11 @@ int main(void) {
 	float a = 1.0;
 	float b = 2.5;
 	cout << "max(1.0,2.0)=" << Max(a, b) << endl;
-	
+
 	demo d1(10);
 	demo d2(11);
 	cout << "max(d1,d2)=" << Max(d1, d2).value() << endl;
 	system("pause");
 	return 0;
-	
+
 }

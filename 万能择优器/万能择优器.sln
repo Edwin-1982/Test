@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "类模板函数的三种表
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "类模板函数和头文件", "..\类模板函数和头文件\类模板函数和头文件.vcxproj", "{A83FC604-A4F8-4F5E-AE89-1E0D31BF7613}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "类模板和友元函数", "..\类模板和友元函数\类模板和友元函数.vcxproj", "{A12B110E-FF95-42FC-B753-D97AE596577E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{A83FC604-A4F8-4F5E-AE89-1E0D31BF7613}.Release|x64.Build.0 = Release|x64
 		{A83FC604-A4F8-4F5E-AE89-1E0D31BF7613}.Release|x86.ActiveCfg = Release|Win32
 		{A83FC604-A4F8-4F5E-AE89-1E0D31BF7613}.Release|x86.Build.0 = Release|Win32
+		{A12B110E-FF95-42FC-B753-D97AE596577E}.Debug|x64.ActiveCfg = Debug|x64
+		{A12B110E-FF95-42FC-B753-D97AE596577E}.Debug|x64.Build.0 = Debug|x64
+		{A12B110E-FF95-42FC-B753-D97AE596577E}.Debug|x86.ActiveCfg = Debug|Win32
+		{A12B110E-FF95-42FC-B753-D97AE596577E}.Debug|x86.Build.0 = Debug|Win32
+		{A12B110E-FF95-42FC-B753-D97AE596577E}.Release|x64.ActiveCfg = Release|x64
+		{A12B110E-FF95-42FC-B753-D97AE596577E}.Release|x64.Build.0 = Release|x64
+		{A12B110E-FF95-42FC-B753-D97AE596577E}.Release|x86.ActiveCfg = Release|Win32
+		{A12B110E-FF95-42FC-B753-D97AE596577E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

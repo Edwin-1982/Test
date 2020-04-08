@@ -211,6 +211,8 @@
     <None Include="res\draw3.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
     <Image Include="res\draw3.ico" />
     <Image Include="res\draw3Doc.ico" />
     <Image Include="res\Toolbar.bmp" />

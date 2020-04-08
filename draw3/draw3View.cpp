@@ -99,14 +99,61 @@ void Cdraw3View::OnLButtonUp(UINT nFlags, CPoint point)
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	//画线
 	//获取设备上下文
+	/*
 	CDC* pDC = GetDC();
+
+	//画笔
+	//CPen pen(PS_SOLID, 5, RGB(0,255,0));//绿实线
+	CPen pen(PS_DASHDOT, 1, RGB(255,0,0));//红色点划线
+
+	//设备上下文选中画笔
+	CPen *pOldPen=pDC->SelectObject(&pen);
 
 	//画笔移动到起点
 	pDC->MoveTo(m_pOrigin);
 	//画线
 	pDC->LineTo(point);
+	//设备上下文恢复画笔
+	pDC->SelectObject(pOldPen);
 	//释放设备上下文
 	ReleaseDC(pDC);
+	*/
 
+	/*
+	CClientDC dc(this);
+	//获得系统透明画刷
+	CBrush* brush = CBrush::FromHandle((HBRUSH)GetStockObject(NULL_BRUSH));
+	//在设备上下文中选择画刷
+	CBrush* oldbrush = dc.SelectObject(brush); 
+	//画矩形
+	dc.Rectangle(CRect(m_pOrigin, point));
+	//恢复画刷
+	dc.SelectObject(oldbrush);
+	*/
+
+	/*
+	CClientDC dc(this);
+	//默认画刷,白色,不透明
+	dc.Rectangle(CRect(m_pOrigin,point));
+	*/
+
+	/*
+	CClientDC dc(this);
+	//CBrush brush(RGB(255, 0, 0));//红色矩形
+	//CBrush brush(RGB(0, 255, 0));//绿色矩形
+	CBrush brush(RGB(0, 125, 255));//天蓝矩形
+
+	dc.FillRect(CRect(m_pOrigin, point),&brush);
+	*/
+
+	CClientDC dc(this);
+	//Bitmap对象
+	CBitmap bitmap;
+	//从项目资源加载bitmap图像到对象中
+	bitmap.LoadBitmap(IDB_BITMAP1);
+	//以Bitmap做参数,生成画刷对象
+	CBrush brush(&bitmap);
+
+	dc.FillRect(CRect(m_pOrigin, point), &brush);
 	CView::OnLButtonUp(nFlags, point);
 }

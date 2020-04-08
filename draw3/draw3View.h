@@ -40,6 +40,8 @@ protected:
 public:
 	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
 	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
+protected:
+	CPoint m_pOrigin;
 };
 
 #ifndef _DEBUG  // draw3View.cpp 中的调试版本

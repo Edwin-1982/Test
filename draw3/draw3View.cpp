@@ -87,6 +87,8 @@ Cdraw3Doc* Cdraw3View::GetDocument() const // 非调试版本是内联的
 void Cdraw3View::OnLButtonDown(UINT nFlags, CPoint point)
 {
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
+	//保存起点到成员变量
+	m_pOrigin = point;
 
 	CView::OnLButtonDown(nFlags, point);
 }
@@ -95,6 +97,16 @@ void Cdraw3View::OnLButtonDown(UINT nFlags, CPoint point)
 void Cdraw3View::OnLButtonUp(UINT nFlags, CPoint point)
 {
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
+	//画线
+	//获取设备上下文
+	CDC* pDC = GetDC();
+
+	//画笔移动到起点
+	pDC->MoveTo(m_pOrigin);
+	//画线
+	pDC->LineTo(point);
+	//释放设备上下文
+	ReleaseDC(pDC);
 
 	CView::OnLButtonUp(nFlags, point);
 }

@@ -153,7 +153,7 @@ void Cdraw3View::OnLButtonUp(UINT nFlags, CPoint point)
 	bitmap.LoadBitmap(IDB_BITMAP1);
 	//以Bitmap做参数,生成画刷对象
 	CBrush brush(&bitmap);
-	int a= 100;
+	
 	dc.FillRect(CRect(m_pOrigin, point), &brush);
 	CView::OnLButtonUp(nFlags, point);
 }

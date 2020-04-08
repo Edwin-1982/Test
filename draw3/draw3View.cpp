@@ -90,7 +90,7 @@ void Cdraw3View::OnLButtonDown(UINT nFlags, CPoint point)
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	//保存起点到成员变量
 	m_pOrigin = point;
-	int a = 1;
+
 	CView::OnLButtonDown(nFlags, point);
 }
 

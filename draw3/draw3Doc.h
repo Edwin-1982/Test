@@ -1,16 +1,28 @@
 ﻿
+<<<<<<< HEAD
 // draw3Doc.h: Cdraw3Doc 类的接口
+=======
+// demo3Doc.h: Cdemo3Doc 类的接口
+>>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 //
 
 
 #pragma once
 
 
+<<<<<<< HEAD
 class Cdraw3Doc : public CDocument
 {
 protected: // 仅从序列化创建
 	Cdraw3Doc() noexcept;
 	DECLARE_DYNCREATE(Cdraw3Doc)
+=======
+class Cdemo3Doc : public CDocument
+{
+protected: // 仅从序列化创建
+	Cdemo3Doc() noexcept;
+	DECLARE_DYNCREATE(Cdemo3Doc)
+>>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 
 // 特性
 public:
@@ -29,7 +41,11 @@ public:
 
 // 实现
 public:
+<<<<<<< HEAD
 	virtual ~Cdraw3Doc();
+=======
+	virtual ~Cdemo3Doc();
+>>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 #ifdef _DEBUG
 	virtual void AssertValid() const;
 	virtual void Dump(CDumpContext& dc) const;

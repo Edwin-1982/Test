@@ -4,7 +4,11 @@
 
 #include "pch.h"
 #include "framework.h"
+<<<<<<< HEAD
 #include "draw3.h"
+=======
+#include "demo3.h"
+>>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 
 #include "MainFrm.h"
 

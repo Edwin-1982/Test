@@ -23,6 +23,8 @@
 IMPLEMENT_DYNCREATE(Cdraw3View, CView)
 
 BEGIN_MESSAGE_MAP(Cdraw3View, CView)
+	ON_WM_LBUTTONDOWN()
+	ON_WM_LBUTTONUP()
 END_MESSAGE_MAP()
 
 // Cdraw3View 构造/析构
@@ -80,3 +82,19 @@ Cdraw3Doc* Cdraw3View::GetDocument() const // 非调试版本是内联的
 
 
 // Cdraw3View 消息处理程序
+
+
+void Cdraw3View::OnLButtonDown(UINT nFlags, CPoint point)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+
+	CView::OnLButtonDown(nFlags, point);
+}
+
+
+void Cdraw3View::OnLButtonUp(UINT nFlags, CPoint point)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+
+	CView::OnLButtonUp(nFlags, point);
+}

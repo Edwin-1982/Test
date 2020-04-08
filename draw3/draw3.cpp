@@ -1,52 +1,32 @@
 ﻿
-<<<<<<< HEAD
 // draw3.cpp: 定义应用程序的类行为。
-=======
-// demo3.cpp: 定义应用程序的类行为。
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 //
 
 #include "pch.h"
 #include "framework.h"
 #include "afxwinappex.h"
 #include "afxdialogex.h"
-<<<<<<< HEAD
 #include "draw3.h"
 #include "MainFrm.h"
 
 #include "draw3Doc.h"
 #include "draw3View.h"
-=======
-#include "demo3.h"
-#include "MainFrm.h"
-
-#include "demo3Doc.h"
-#include "demo3View.h"
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
 
 
-<<<<<<< HEAD
 // Cdraw3App
 
 BEGIN_MESSAGE_MAP(Cdraw3App, CWinApp)
 	ON_COMMAND(ID_APP_ABOUT, &Cdraw3App::OnAppAbout)
-=======
-// Cdemo3App
-
-BEGIN_MESSAGE_MAP(Cdemo3App, CWinApp)
-	ON_COMMAND(ID_APP_ABOUT, &Cdemo3App::OnAppAbout)
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 	// 基于文件的标准文档命令
 	ON_COMMAND(ID_FILE_NEW, &CWinApp::OnFileNew)
 	ON_COMMAND(ID_FILE_OPEN, &CWinApp::OnFileOpen)
 END_MESSAGE_MAP()
 
 
-<<<<<<< HEAD
 // Cdraw3App 构造
 
 Cdraw3App::Cdraw3App() noexcept
@@ -54,21 +34,11 @@ Cdraw3App::Cdraw3App() noexcept
 	// TODO: 将以下应用程序 ID 字符串替换为唯一的 ID 字符串；建议的字符串格式
 	//为 CompanyName.ProductName.SubProduct.VersionInformation
 	SetAppID(_T("draw3.AppID.NoVersion"));
-=======
-// Cdemo3App 构造
-
-Cdemo3App::Cdemo3App() noexcept
-{
-	// TODO: 将以下应用程序 ID 字符串替换为唯一的 ID 字符串；建议的字符串格式
-	//为 CompanyName.ProductName.SubProduct.VersionInformation
-	SetAppID(_T("demo3.AppID.NoVersion"));
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 
 	// TODO:  在此处添加构造代码，
 	// 将所有重要的初始化放置在 InitInstance 中
 }
 
-<<<<<<< HEAD
 // 唯一的 Cdraw3App 对象
 
 Cdraw3App theApp;
@@ -77,16 +47,6 @@ Cdraw3App theApp;
 // Cdraw3App 初始化
 
 BOOL Cdraw3App::InitInstance()
-=======
-// 唯一的 Cdemo3App 对象
-
-Cdemo3App theApp;
-
-
-// Cdemo3App 初始化
-
-BOOL Cdemo3App::InitInstance()
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 {
 	CWinApp::InitInstance();
 
@@ -112,15 +72,9 @@ BOOL Cdemo3App::InitInstance()
 	CSingleDocTemplate* pDocTemplate;
 	pDocTemplate = new CSingleDocTemplate(
 		IDR_MAINFRAME,
-<<<<<<< HEAD
 		RUNTIME_CLASS(Cdraw3Doc),
 		RUNTIME_CLASS(CMainFrame),       // 主 SDI 框架窗口
 		RUNTIME_CLASS(Cdraw3View));
-=======
-		RUNTIME_CLASS(Cdemo3Doc),
-		RUNTIME_CLASS(CMainFrame),       // 主 SDI 框架窗口
-		RUNTIME_CLASS(Cdemo3View));
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 	if (!pDocTemplate)
 		return FALSE;
 	AddDocTemplate(pDocTemplate);
@@ -143,11 +97,7 @@ BOOL Cdemo3App::InitInstance()
 	return TRUE;
 }
 
-<<<<<<< HEAD
 // Cdraw3App 消息处理程序
-=======
-// Cdemo3App 消息处理程序
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 
 
 // 用于应用程序“关于”菜单项的 CAboutDlg 对话框
@@ -183,21 +133,13 @@ BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
 END_MESSAGE_MAP()
 
 // 用于运行对话框的应用程序命令
-<<<<<<< HEAD
 void Cdraw3App::OnAppAbout()
-=======
-void Cdemo3App::OnAppAbout()
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 {
 	CAboutDlg aboutDlg;
 	aboutDlg.DoModal();
 }
 
-<<<<<<< HEAD
 // Cdraw3App 消息处理程序
-=======
-// Cdemo3App 消息处理程序
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
 
 
 

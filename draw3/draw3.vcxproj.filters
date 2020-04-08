@@ -15,11 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClInclude Include="draw3.h">
-=======
-    <ClInclude Include="demo3.h">
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -31,17 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>头文件</Filter>
     </ClInclude>
-<<<<<<< HEAD
     <ClInclude Include="draw3Doc.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="draw3View.h">
-=======
-    <ClInclude Include="demo3Doc.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="demo3View.h">
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -52,27 +41,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="draw3.cpp">
-=======
-    <ClCompile Include="demo3.cpp">
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-<<<<<<< HEAD
     <ClCompile Include="draw3Doc.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="draw3View.cpp">
-=======
-    <ClCompile Include="demo3Doc.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="demo3View.cpp">
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -80,35 +58,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ResourceCompile Include="draw3.rc">
-=======
-    <ResourceCompile Include="demo3.rc">
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
       <Filter>资源文件</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <None Include="res\draw3.rc2">
-=======
-    <None Include="res\demo3.rc2">
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Image Include="res\draw3Doc.ico">
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="res\draw3.ico">
-=======
-    <Image Include="res\demo3Doc.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="res\demo3.ico">
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">

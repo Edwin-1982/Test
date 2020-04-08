@@ -20,15 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-<<<<<<< HEAD
-    <ProjectGuid>{DC6D43A8-C01F-45BF-9486-E47B232A102C}</ProjectGuid>
+    <ProjectGuid>{52C4C8BA-92D3-40A7-8BB5-B85F96EEDA66}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
     <RootNamespace>draw3</RootNamespace>
-=======
-    <ProjectGuid>{4CADA1C4-AD77-47F4-AFB3-CC3FE1FEB17D}</ProjectGuid>
-    <Keyword>MFCProj</Keyword>
-    <RootNamespace>demo3</RootNamespace>
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -189,15 +183,9 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClInclude Include="draw3.h" />
     <ClInclude Include="draw3Doc.h" />
     <ClInclude Include="draw3View.h" />
-=======
-    <ClInclude Include="demo3.h" />
-    <ClInclude Include="demo3Doc.h" />
-    <ClInclude Include="demo3View.h" />
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -205,15 +193,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="draw3.cpp" />
     <ClCompile Include="draw3Doc.cpp" />
     <ClCompile Include="draw3View.cpp" />
-=======
-    <ClCompile Include="demo3.cpp" />
-    <ClCompile Include="demo3Doc.cpp" />
-    <ClCompile Include="demo3View.cpp" />
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -223,7 +205,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ResourceCompile Include="draw3.rc" />
   </ItemGroup>
   <ItemGroup>
@@ -232,16 +213,6 @@
   <ItemGroup>
     <Image Include="res\draw3.ico" />
     <Image Include="res\draw3Doc.ico" />
-=======
-    <ResourceCompile Include="demo3.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="res\demo3.rc2" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="res\demo3.ico" />
-    <Image Include="res\demo3Doc.ico" />
->>>>>>> 9e554366a77ae3dcece734b3397a645223ff5948
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

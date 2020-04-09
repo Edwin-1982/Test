@@ -42,6 +42,10 @@ public:
 	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
 protected:
 	CPoint m_pOrigin;
+public:
+	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
+protected:
+	bool m_bDraw;
 };
 
 #ifndef _DEBUG  // draw3View.cpp 中的调试版本

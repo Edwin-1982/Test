@@ -25,6 +25,7 @@ IMPLEMENT_DYNCREATE(Cdraw3View, CView)
 BEGIN_MESSAGE_MAP(Cdraw3View, CView)
 	ON_WM_LBUTTONDOWN()
 	ON_WM_LBUTTONUP()
+	ON_WM_MOUSEMOVE()
 END_MESSAGE_MAP()
 
 // Cdraw3View 构造/析构
@@ -32,7 +33,8 @@ END_MESSAGE_MAP()
 Cdraw3View::Cdraw3View() noexcept
 {
 	// TODO: 在此处添加构造代码
-
+	m_pOrigin = 0;
+	m_bDraw = false;
 }
 
 Cdraw3View::~Cdraw3View()
@@ -89,7 +91,14 @@ void Cdraw3View::OnLButtonDown(UINT nFlags, CPoint point)
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	//保存起点到成员变量
 	m_pOrigin = point;
-
+	m_bDraw = !m_bDraw;//鼠标按下开始画
+	m_bDraw = true;    //鼠标按住开始画
+	/*if (m_bDraw) {
+		m_bDraw = false;
+	}
+	else {
+		m_bDraw = true;
+	}*/
 	CView::OnLButtonDown(nFlags, point);
 }
 
@@ -157,5 +166,20 @@ void Cdraw3View::OnLButtonUp(UINT nFlags, CPoint point)
 	
 	dc.FillRect(CRect(m_pOrigin, point), &brush);
 	*/
+	m_bDraw = false;
 	CView::OnLButtonUp(nFlags, point);
+}
+
+
+void Cdraw3View::OnMouseMove(UINT nFlags, CPoint point)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+	CClientDC dc(this);
+	if (m_bDraw) {
+		dc.MoveTo(m_pOrigin);
+		dc.LineTo(point);
+
+		m_pOrigin = point;
+	}
+	CView::OnMouseMove(nFlags, point);
 }

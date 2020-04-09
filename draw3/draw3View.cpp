@@ -146,6 +146,7 @@ void Cdraw3View::OnLButtonUp(UINT nFlags, CPoint point)
 	dc.FillRect(CRect(m_pOrigin, point),&brush);
 	*/
 
+	/*
 	CClientDC dc(this);
 	//Bitmap对象
 	CBitmap bitmap;
@@ -155,5 +156,6 @@ void Cdraw3View::OnLButtonUp(UINT nFlags, CPoint point)
 	CBrush brush(&bitmap);
 	
 	dc.FillRect(CRect(m_pOrigin, point), &brush);
+	*/
 	CView::OnLButtonUp(nFlags, point);
 }

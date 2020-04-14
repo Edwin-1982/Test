@@ -37,6 +37,19 @@ protected:
 // 生成的消息映射函数
 protected:
 	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
+	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
+	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
+protected:
+	
+	bool m_bDraw;
+	CPoint m_pOrigin;
+public:
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
+protected:
+	int m_nWidth;
 };
 
 #ifndef _DEBUG  // darw(Text)View.cpp 中的调试版本

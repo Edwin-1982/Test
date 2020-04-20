@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "异常类型和生命周期
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "异常与继承", "..\异常与继承\异常与继承.vcxproj", "{7B6D33BB-36BE-462E-A5DC-28A532E9DECD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "标准程序库异常", "..\标准程序库异常\标准程序库异常.vcxproj", "{9BC66F1B-A4B1-48CF-8380-C012BC551C9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{7B6D33BB-36BE-462E-A5DC-28A532E9DECD}.Release|x64.Build.0 = Release|x64
 		{7B6D33BB-36BE-462E-A5DC-28A532E9DECD}.Release|x86.ActiveCfg = Release|Win32
 		{7B6D33BB-36BE-462E-A5DC-28A532E9DECD}.Release|x86.Build.0 = Release|Win32
+		{9BC66F1B-A4B1-48CF-8380-C012BC551C9C}.Debug|x64.ActiveCfg = Debug|x64
+		{9BC66F1B-A4B1-48CF-8380-C012BC551C9C}.Debug|x64.Build.0 = Debug|x64
+		{9BC66F1B-A4B1-48CF-8380-C012BC551C9C}.Debug|x86.ActiveCfg = Debug|Win32
+		{9BC66F1B-A4B1-48CF-8380-C012BC551C9C}.Debug|x86.Build.0 = Debug|Win32
+		{9BC66F1B-A4B1-48CF-8380-C012BC551C9C}.Release|x64.ActiveCfg = Release|x64
+		{9BC66F1B-A4B1-48CF-8380-C012BC551C9C}.Release|x64.Build.0 = Release|x64
+		{9BC66F1B-A4B1-48CF-8380-C012BC551C9C}.Release|x86.ActiveCfg = Release|Win32
+		{9BC66F1B-A4B1-48CF-8380-C012BC551C9C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

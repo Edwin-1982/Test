@@ -24,9 +24,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="CCMainWindow.ui">
-      <Filter>Resource Files</Filter>
-    </QtUic>
     <QtMoc Include="CCMainWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -50,6 +47,9 @@
     <ClCompile Include="CommonUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UserLogin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="CCMainWindow.qrc" />
@@ -64,10 +64,21 @@
     <QtMoc Include="notifymanager.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="UserLogin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="CCMainWindow.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="UserLogin.ui">
+      <Filter>Header Files</Filter>
+    </QtUic>
   </ItemGroup>
 </Project>

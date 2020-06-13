@@ -103,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <ClInclude Include="resource.h" />
     <QtMoc Include="UserLogin.h" />
   </ItemGroup>
   <ItemGroup>

@@ -204,5 +204,3 @@ void BasicWindow::onButtonCloseClicked()
 {
 	close();
 }
-//benbe sa hihsida ojasop m
-//ds ad[al d[a ]]

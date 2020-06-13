@@ -140,10 +140,12 @@ void BasicWindow::onShowQuit(bool)
 	QApplication::quit();
 }
 
+//鼠标移动事件
 void BasicWindow::mouseMoveEvent(QMouseEvent* e)
 {
-	if (m_mousePressed && (e->button() && Qt::LeftButton))
+	if (m_mousePressed && (e->buttons() && Qt::LeftButton))
 	{
+		//e->globelPos()事件发生时全局坐标,相对于题目左上角(0,0)
 		move(e->globalPos() - m_mousePoint);
 		e->accept();
 	}

@@ -7,7 +7,7 @@ UserLogin::UserLogin(QWidget *parent)
 	ui.setupUi(this);
 	setAttribute(Qt::WA_DeleteOnClose);
 	initTitleBar();
-	setTitleBarTitle("", ":REsources/MainWindow/qqloginclassic.png");
+	setTitleBarTitle("", ":Resources/MainWindow/qqloginclassic.png");
 	loadStyleSheet("UserLogin");
 	initControl();
 }
@@ -30,4 +30,5 @@ void UserLogin::onLoginBtnClicked()
 {
 	close();
 	CCMainWindow* mainwindow = new CCMainWindow;
+	mainwindow->show();
 }

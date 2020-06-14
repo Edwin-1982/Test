@@ -68,7 +68,7 @@
      <x>0</x>
      <y>104</y>
      <width>434</width>
-     <height>200</height>
+     <height>212</height>
     </rect>
    </property>
    <property name="sizePolicy">
@@ -80,16 +80,16 @@
    <property name="minimumSize">
     <size>
      <width>0</width>
-     <height>200</height>
+     <height>212</height>
     </size>
    </property>
    <property name="maximumSize">
     <size>
      <width>16777215</width>
-     <height>200</height>
+     <height>212</height>
     </size>
    </property>
-   <property name="buttonskin" stdset="0">
+   <property name="bottomskin" stdset="0">
     <bool>false</bool>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -259,7 +259,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="forgetwordBtn">
+       <widget class="QPushButton" name="forgetWordbtn">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -284,7 +284,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="regisBtn">
+       <widget class="QPushButton" name="registBtn">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -377,6 +377,8 @@
     </item>
    </layout>
   </widget>
+  <zorder>bodyWidget</zorder>
+  <zorder>titleWidget</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

@@ -92,6 +92,21 @@
         <file>Resources/MainWindow/sysbtn_min_down.png</file>
         <file>Resources/MainWindow/sysbtn_min_hover.png</file>
         <file>Resources/MainWindow/sysbtn_min_normal.png</file>
+        <file>Resources/MainWindow/app/app_1.png</file>
+        <file>Resources/MainWindow/app/app_2.png</file>
+        <file>Resources/MainWindow/app/app_3.png</file>
+        <file>Resources/MainWindow/app/app_4.png</file>
+        <file>Resources/MainWindow/app/app_5.png</file>
+        <file>Resources/MainWindow/app/app_6.png</file>
+        <file>Resources/MainWindow/app/app_7.png</file>
+        <file>Resources/MainWindow/app/app_8.png</file>
+        <file>Resources/MainWindow/app/app_9.png</file>
+        <file>Resources/MainWindow/app/app_10.png</file>
+        <file>Resources/MainWindow/app/app_11.png</file>
+        <file>Resources/MainWindow/app/face_setting_btn_normal.png</file>
+        <file>Resources/MainWindow/app/logo.ico</file>
+        <file>Resources/MainWindow/app/page_close_btn_hover.png</file>
+        <file>Resources/MainWindow/app/skin.png</file>
         <file>Resources/MainWindow/bottom/filemanager.png</file>
         <file>Resources/MainWindow/bottom/filemanager_down.png</file>
         <file>Resources/MainWindow/bottom/filemanager_hover.png</file>
@@ -114,21 +129,6 @@
         <file>Resources/MainWindow/bottom/tools.png</file>
         <file>Resources/MainWindow/bottom/tools_down.png</file>
         <file>Resources/MainWindow/bottom/tools_hover.png</file>
-        <file>Resources/MainWindow/app/app_1.png</file>
-        <file>Resources/MainWindow/app/app_2.png</file>
-        <file>Resources/MainWindow/app/app_3.png</file>
-        <file>Resources/MainWindow/app/app_4.png</file>
-        <file>Resources/MainWindow/app/app_5.png</file>
-        <file>Resources/MainWindow/app/app_6.png</file>
-        <file>Resources/MainWindow/app/app_7.png</file>
-        <file>Resources/MainWindow/app/app_8.png</file>
-        <file>Resources/MainWindow/app/app_9.png</file>
-        <file>Resources/MainWindow/app/app_10.png</file>
-        <file>Resources/MainWindow/app/app_11.png</file>
-        <file>Resources/MainWindow/app/face_setting_btn_normal.png</file>
-        <file>Resources/MainWindow/app/logo.ico</file>
-        <file>Resources/MainWindow/app/page_close_btn_hover.png</file>
-        <file>Resources/MainWindow/app/skin.png</file>
         <file>Resources/MainWindow/emotion/0.png</file>
         <file>Resources/MainWindow/emotion/1.png</file>
         <file>Resources/MainWindow/emotion/2.png</file>
@@ -341,5 +341,12 @@
         <file>Resources/MainWindow/Title/max.png</file>
         <file>Resources/MainWindow/Title/min.png</file>
         <file>Resources/MainWindow/Title/restore.png</file>
+        <file>Resources/QSS/CCMainWindow.css</file>
+        <file>Resources/QSS/EmotionWindow.css</file>
+        <file>Resources/QSS/Menu.css</file>
+        <file>Resources/QSS/SkinWindow.css</file>
+        <file>Resources/QSS/TalkWindow.css</file>
+        <file>Resources/QSS/Title.css</file>
+        <file>Resources/QSS/UserLogin.css</file>
     </qresource>
 </RCC>

@@ -195,7 +195,6 @@ void TitleBar::mousePressEvent(QMouseEvent* event)
 	{
 		m_isPressed = true;
 		m_startMovePos = event->globalPos();
-
 	}
 
 	return QWidget::mousePressEvent(event);

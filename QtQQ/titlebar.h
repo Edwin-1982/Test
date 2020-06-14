@@ -21,9 +21,11 @@ public:
 
 	void setTitleIcon(const QString& filePath);			//设置标题栏图标
 	void setTitleContent(const QString& titleContent);	//设置标题栏内容
+
 	void setTitleWidth(int width);					//设置标题栏长度
 	void setButtonType(ButtonType buttonType);		//设置标题栏按钮类型
-	//保存最大化前窗口的位置及大小
+	
+//保存最大化前窗口的位置及大小
 
 	void saveReStoreInfo(const QPoint& point, const QSize& size);
 	void getRestoreInfo(QPoint& point, QSize& size);

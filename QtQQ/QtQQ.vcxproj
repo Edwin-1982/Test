@@ -87,7 +87,6 @@
     <ClCompile Include="notifymanager.cpp" />
     <ClCompile Include="titlebar.cpp" />
     <ClCompile Include="UserLogin.cpp" />
-    <QtRcc Include="CCMainWindow.qrc" />
     <QtMoc Include="CCMainWindow.h" />
     <ClCompile Include="CCMainWindow.cpp" />
     <ClCompile Include="main.cpp" />
@@ -109,6 +108,9 @@
   <ItemGroup>
     <QtUic Include="CCMainWindow.ui" />
     <QtUic Include="UserLogin.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="CCMainWindow.qrc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
